@@ -1,0 +1,10 @@
+.tutorials {
+  height: 100%;
+  width: 1280px;
+  margin-left: 80px;
+  background-color: #0b2e2e; }
+  .tutorials .tut-vid {
+    height: 50%;
+    width: 1280px;
+    background-color: cornsilk;
+    margin-left: 20px; }

@@ -1,0 +1,247 @@
+.paint {
+  width: 1280px;
+  height: 1500px;
+  background-color: goldenrod;
+  margin-left: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .paint .paint-header {
+    background-color: sandybrown;
+    margin-top: 50px;
+    width: 981px;
+    height: 200px;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/best.jpg);
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/best.jpg);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/best.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/best.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+    .paint .paint-header h1 {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      color: white;
+      font-size: 72px;
+      font-family: proxima-nova-extra-condensed, sans-serif;
+      font-weight: 400;
+      font-style: thin;
+      letter-spacing: 7px;
+      margin-top: 60px; }
+  .paint .paint-cont {
+    width: 850px;
+    height: 1000px;
+    margin-top: 30px;
+    background-color: aqua;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+    .paint .paint-cont p {
+      font-size: 36px;
+      color: white;
+      text-decoration: none;
+      font-family: proxima-nova-extra-condensed, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      padding-bottom: 60px;
+      margin-left: 60px;
+      margin-top: -30px; }
+    .paint .paint-cont .black {
+      width: 236px;
+      height: 304px;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/tour/tour-01.jpg);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-01.jpg);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-01.jpg);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-01.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      .paint .paint-cont .black h1 {
+        font-size: 72px;
+        color: white;
+        text-decoration: none;
+        font-family: proxima-nova-extra-condensed, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-left: 50px;
+        margin-top: 50px; }
+    .paint .paint-cont .white {
+      width: 236px;
+      height: 304px;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/tour/tour-02.jpg);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-02.jpg);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-02.jpg);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-02.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      .paint .paint-cont .white h1 {
+        font-size: 72px;
+        color: white;
+        text-decoration: none;
+        font-family: proxima-nova-extra-condensed, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-left: 60px;
+        margin-top: 50px; }
+    .paint .paint-cont .red {
+      width: 236px;
+      height: 304px;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/tour/tour-03.jpg);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-03.jpg);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-03.jpg);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-03.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      .paint .paint-cont .red h1 {
+        font-size: 72px;
+        color: white;
+        text-decoration: none;
+        font-family: proxima-nova-extra-condensed, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-left: 20px;
+        margin-top: 50px; }
+    .paint .paint-cont .blue {
+      width: 236px;
+      height: 304px;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/tour/tour-04.jpg);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-04.jpg);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-04.jpg);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-04.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      .paint .paint-cont .blue h1 {
+        font-size: 50px;
+        color: white;
+        text-decoration: none;
+        font-family: proxima-nova-extra-condensed, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-left: 20px;
+        margin-top: 60px;
+        margin-bottom: 30px; }
+    .paint .paint-cont .green {
+      width: 236px;
+      height: 304px;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/tour/tour-05.jpg);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-05.jpg);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-05.jpg);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-05.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      .paint .paint-cont .green h1 {
+        font-size: 72px;
+        color: white;
+        text-decoration: none;
+        font-family: proxima-nova-extra-condensed, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-left: 50px;
+        margin-top: 50px; }
+    .paint .paint-cont .yellow {
+      width: 236px;
+      height: 304px;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/tour/tour-06.jpg);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-06.jpg);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-06.jpg);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-06.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      .paint .paint-cont .yellow h1 {
+        font-size: 72px;
+        color: white;
+        text-decoration: none;
+        font-family: proxima-nova-extra-condensed, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-left: 60px;
+        margin-top: 50px; }
+    .paint .paint-cont .purple {
+      width: 236px;
+      height: 304px;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/tour/tour-07.jpg);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-07.jpg);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-07.jpg);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-07.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      .paint .paint-cont .purple h1 {
+        font-size: 72px;
+        color: white;
+        text-decoration: none;
+        font-family: proxima-nova-extra-condensed, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-left: 50px;
+        margin-top: 50px; }
+    .paint .paint-cont .orange {
+      width: 236px;
+      height: 304px;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/tour/tour-08.jpg);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-08.jpg);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-08.jpg);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-08.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      .paint .paint-cont .orange h1 {
+        font-size: 72px;
+        color: white;
+        text-decoration: none;
+        font-family: proxima-nova-extra-condensed, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-left: 40px;
+        margin-top: 50px; }
+    .paint .paint-cont .grey {
+      width: 236px;
+      height: 304px;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/tour/tour-09.jpg);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-09.jpg);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-09.jpg);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-09.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      .paint .paint-cont .grey h1 {
+        font-size: 72px;
+        color: white;
+        text-decoration: none;
+        font-family: proxima-nova-extra-condensed, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-left: 60px;
+        margin-top: 50px; }
+    .paint .paint-cont .site-button {
+      padding: 10px 25px;
+      text-decoration: none;
+      color: white;
+      margin-left: 45px;
+      border-radius: 20px; }

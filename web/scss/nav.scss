@@ -1,0 +1,26 @@
+.cart {
+  .cart-button {
+    padding: 10px 25px;
+    background-color: white;
+    text-decoration: none;
+    color: rgb(99, 1, 1);
+    margin-left: 1200px;
+    border: 1px solid rgb(99, 1, 1);
+  }
+}
+
+.link-wrapper {
+  width: 1280px;
+  display: flex;
+  justify-content: space-evenly;
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}

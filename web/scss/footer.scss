@@ -1,0 +1,33 @@
+footer {
+  background-color: black;
+  // margin-top: 250px;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  // flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+
+  span {
+    //margin-left: -700px;
+    font-size: 12px;
+    font-weight: 200;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    color: white;
+  }
+
+  .logo {
+    color: whitesmoke;
+  }
+
+  .social {
+    //background-color: greenyellow;
+    font-size: 22px;
+    width: 140px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+  }
+}

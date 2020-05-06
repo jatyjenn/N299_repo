@@ -1,0 +1,809 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html,
+body {
+  height: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px; }
+
+.buy-now {
+  margin-left: 210px;
+  width: 200px;
+  height: 90px;
+  background-color: white;
+  border: 1px solid transparent;
+  border-color: #630101;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #630101;
+  cursor: pointer;
+  text-decoration: none; }
+
+.site-button {
+  padding: 10px 25px;
+  background-color: white;
+  text-decoration: none;
+  color: #630101;
+  margin-left: 45px; }
+
+.cart .cart-button {
+  padding: 10px 25px;
+  background-color: white;
+  text-decoration: none;
+  color: #630101;
+  margin-left: 1200px;
+  border: 1px solid #630101; }
+
+.link-wrapper {
+  width: 1280px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly; }
+  .link-wrapper a {
+    text-decoration: none;
+    color: black; }
+
+.top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-bottom: 30px; }
+
+.hero {
+  height: 100%;
+  width: 1280px;
+  margin-left: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly; }
+  .hero .hero-txt {
+    width: 40%;
+    height: 60%;
+    background-color: white; }
+    .hero .hero-txt h1 {
+      margin-top: 200px;
+      margin-left: 105px; }
+    .hero .hero-txt p {
+      margin-left: 110px; }
+    .hero .hero-txt .head-button {
+      padding: 10px 25px;
+      background-color: white;
+      text-decoration: none;
+      color: #630101;
+      margin-left: 110px;
+      border: 1px solid #630101; }
+    .hero .hero-txt .news {
+      height: 59%;
+      width: 100%;
+      margin-top: 201px;
+      color: whitesmoke;
+      background-color: aquamarine;
+      background-image: url(../images/accessories-01.jpg);
+      background-size: cover;
+      background-position: 50% 50%; }
+      .hero .hero-txt .news h2 {
+        font-size: 40px;
+        text-decoration: none;
+        font-family: proxima-nova-extra-condensed, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-left: 20px;
+        padding: 40px; }
+      .hero .hero-txt .news .hero-button {
+        padding: 10px 25px;
+        background-color: white;
+        text-decoration: none;
+        color: #630101;
+        margin-left: 140px; }
+  .hero .hero-img {
+    background-color: aqua;
+    background-image: url(../images/hero-kit.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 60%; }
+  .hero .discount {
+    height: 40%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 500px;
+    margin-right: 200px; }
+    .hero .discount h1 {
+      font-size: 72px;
+      color: white;
+      text-decoration: none;
+      font-family: proxima-nova-extra-condensed, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      margin-left: 60px;
+      margin-top: 50px; }
+  .hero .ship {
+    height: 147.5%;
+    width: 50%;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.6))), url(../images/color.jpg);
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(../images/color.jpg);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(../images/color.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(../images/color.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%; }
+    .hero .ship h2 {
+      font-size: 35px;
+      color: white;
+      text-decoration: none;
+      font-family: proxima-nova-extra-condensed, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      margin-left: 40px;
+      padding: 50px; }
+    .hero .ship .hero-button {
+      padding: 10px 25px;
+      background-color: white;
+      text-decoration: none;
+      color: #630101;
+      margin-left: 130px; }
+  .hero .promo {
+    height: 147.5%;
+    width: 50%;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.6))), url(../images/nomess.jpg);
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(../images/nomess.jpg);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(../images/nomess.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(../images/nomess.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%; }
+    .hero .promo h2 {
+      font-size: 30px;
+      color: white;
+      text-decoration: none;
+      font-family: proxima-nova-extra-condensed, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      margin-left: 60px;
+      padding: 40px; }
+    .hero .promo .hero-button {
+      padding: 10px 25px;
+      background-color: white;
+      text-decoration: none;
+      color: #630101;
+      margin-left: 150px; }
+
+.paint {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .paint .paint-header {
+    width: 1280px;
+    height: 400px;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/paint-head.jpg);
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/paint-head.jpg);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/paint-head.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/paint-head.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+    .paint .paint-header h1 {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      color: white;
+      font-size: 300px;
+      font-family: proxima-nova-extra-condensed, sans-serif;
+      font-weight: 400;
+      font-style: thin;
+      letter-spacing: 7px; }
+  .paint .paint-cont {
+    width: 1300px;
+    height: 1000px;
+    margin-top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+    .paint .paint-cont p {
+      font-size: 36px;
+      color: white;
+      text-decoration: none;
+      font-family: proxima-nova-extra-condensed, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      padding-bottom: 60px;
+      margin-left: 60px;
+      margin-top: -30px; }
+    .paint .paint-cont .black {
+      width: 236px;
+      height: 304px;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/black.jpg);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/black.jpg);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/black.jpg);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/black.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      .paint .paint-cont .black h1 {
+        font-size: 72px;
+        color: white;
+        text-decoration: none;
+        font-family: proxima-nova-extra-condensed, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-left: 60px;
+        margin-top: 50px; }
+    .paint .paint-cont .white {
+      width: 236px;
+      height: 304px;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/white.jpg);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/white.jpg);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/white.jpg);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/white.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      .paint .paint-cont .white h1 {
+        font-size: 72px;
+        color: white;
+        text-decoration: none;
+        font-family: proxima-nova-extra-condensed, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-left: 60px;
+        margin-top: 50px; }
+    .paint .paint-cont .red {
+      width: 236px;
+      height: 304px;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/red.jpg);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/red.jpg);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/red.jpg);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/red.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      .paint .paint-cont .red h1 {
+        font-size: 72px;
+        color: white;
+        text-decoration: none;
+        font-family: proxima-nova-extra-condensed, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-left: 20px;
+        margin-top: 50px; }
+    .paint .paint-cont .blue {
+      width: 236px;
+      height: 304px;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/blue.jpg);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/blue.jpg);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/blue.jpg);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/blue.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      .paint .paint-cont .blue h1 {
+        font-size: 52px;
+        color: white;
+        text-decoration: none;
+        font-family: proxima-nova-extra-condensed, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-left: 50px;
+        margin-top: 60px;
+        margin-bottom: 30px; }
+    .paint .paint-cont .green {
+      width: 236px;
+      height: 304px;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/green.jpg);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/green.jpg);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/green.jpg);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/green.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      .paint .paint-cont .green h1 {
+        font-size: 72px;
+        color: white;
+        text-decoration: none;
+        font-family: proxima-nova-extra-condensed, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-left: 50px;
+        margin-top: 50px; }
+    .paint .paint-cont .yellow {
+      width: 236px;
+      height: 304px;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/yellow.jpg);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/yellow.jpg);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/yellow.jpg);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/yellow.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      .paint .paint-cont .yellow h1 {
+        font-size: 72px;
+        color: white;
+        text-decoration: none;
+        font-family: proxima-nova-extra-condensed, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-left: 50px;
+        margin-top: 50px; }
+    .paint .paint-cont .purple {
+      width: 236px;
+      height: 304px;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/purple.jpg);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/purple.jpg);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/purple.jpg);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/purple.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      .paint .paint-cont .purple h1 {
+        font-size: 72px;
+        color: white;
+        text-decoration: none;
+        font-family: proxima-nova-extra-condensed, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-left: 50px;
+        margin-top: 50px; }
+    .paint .paint-cont .orange {
+      width: 236px;
+      height: 304px;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/orange.jpg);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/orange.jpg);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/orange.jpg);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/orange.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      .paint .paint-cont .orange h1 {
+        font-size: 72px;
+        color: white;
+        text-decoration: none;
+        font-family: proxima-nova-extra-condensed, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-left: 40px;
+        margin-top: 50px; }
+    .paint .paint-cont .grey {
+      width: 236px;
+      height: 304px;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/grey.jpg);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/grey.jpg);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/grey.jpg);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/grey.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      .paint .paint-cont .grey h1 {
+        font-size: 72px;
+        color: white;
+        text-decoration: none;
+        font-family: proxima-nova-extra-condensed, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-left: 70px;
+        margin-top: 50px; }
+    .paint .paint-cont .vice {
+      width: 236px;
+      height: 304px;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/mi-vice.jpg);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/mi-vice.jpg);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/mi-vice.jpg);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/mi-vice.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      .paint .paint-cont .vice h1 {
+        font-size: 72px;
+        color: white;
+        text-decoration: none;
+        font-family: proxima-nova-extra-condensed, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-left: 50px;
+        margin-top: 50px; }
+    .paint .paint-cont .maroon {
+      width: 236px;
+      height: 304px;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/maroon.jpg);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/maroon.jpg);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/maroon.jpg);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/maroon.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      .paint .paint-cont .maroon h1 {
+        font-size: 66px;
+        color: white;
+        text-decoration: none;
+        font-family: proxima-nova-extra-condensed, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-left: 50px;
+        margin-top: 50px; }
+    .paint .paint-cont .pink {
+      width: 236px;
+      height: 304px;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/pink.jpg);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/pink.jpg);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/pink.jpg);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/pink.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      .paint .paint-cont .pink h1 {
+        font-size: 72px;
+        color: white;
+        text-decoration: none;
+        font-family: proxima-nova-extra-condensed, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-left: 70px;
+        margin-top: 50px; }
+    .paint .paint-cont .gold {
+      width: 236px;
+      height: 304px;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/gold.jpg);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/gold.jpg);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/gold.jpg);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/gold.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      .paint .paint-cont .gold h1 {
+        font-size: 72px;
+        color: white;
+        text-decoration: none;
+        font-family: proxima-nova-extra-condensed, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-left: 65px;
+        margin-top: 50px; }
+    .paint .paint-cont .rose {
+      width: 236px;
+      height: 304px;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/rose.jpg);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/rose.jpg);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/rose.jpg);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/rose.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      .paint .paint-cont .rose h1 {
+        font-size: 72px;
+        color: white;
+        text-decoration: none;
+        font-family: proxima-nova-extra-condensed, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-left: 65px;
+        margin-top: 50px; }
+    .paint .paint-cont .silver {
+      width: 236px;
+      height: 304px;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/silver.jpg);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/silver.jpg);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/silver.jpg);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/silver.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      .paint .paint-cont .silver h1 {
+        font-size: 72px;
+        color: white;
+        text-decoration: none;
+        font-family: proxima-nova-extra-condensed, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-left: 60px;
+        margin-top: 50px; }
+    .paint .paint-cont .site-button {
+      padding: 10px 25px;
+      background-color: white;
+      text-decoration: none;
+      color: #630101;
+      margin-left: 50px; }
+
+.cleaner {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 30px; }
+  .cleaner .cleaner-header {
+    width: 1280px;
+    height: 400px;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/clean-hero.jpg);
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/clean-hero.jpg);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/clean-hero.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/clean-hero.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+    .cleaner .cleaner-header h1 {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      color: white;
+      font-size: 300px;
+      font-family: proxima-nova-extra-condensed, sans-serif;
+      font-weight: 400;
+      font-style: thin;
+      letter-spacing: 7px; }
+  .cleaner .cleaner-cont {
+    width: 1300px;
+    height: 100%;
+    margin-top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+    .cleaner .cleaner-cont p {
+      font-size: 36px;
+      color: white;
+      text-decoration: none;
+      font-family: proxima-nova-extra-condensed, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      padding-bottom: 60px;
+      margin-left: 60px;
+      margin-top: -30px; }
+    .cleaner .cleaner-cont .easy {
+      width: 236px;
+      height: 304px;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/Easy_Cleaner_medium.jpg);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/Easy_Cleaner_medium.jpg);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/Easy_Cleaner_medium.jpg);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/Easy_Cleaner_medium.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      .cleaner .cleaner-cont .easy h1 {
+        font-size: 50px;
+        color: white;
+        text-decoration: none;
+        font-family: proxima-nova-extra-condensed, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-left: 50px;
+        margin-top: 50px; }
+    .cleaner .cleaner-cont .foam {
+      width: 236px;
+      height: 304px;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/Angelus-Foam-Tex-Cleaner.jpg);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/Angelus-Foam-Tex-Cleaner.jpg);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/Angelus-Foam-Tex-Cleaner.jpg);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/Angelus-Foam-Tex-Cleaner.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      .cleaner .cleaner-cont .foam h1 {
+        font-size: 50px;
+        color: white;
+        text-decoration: none;
+        font-family: proxima-nova-extra-condensed, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-left: 30px;
+        margin-top: 40px;
+        padding: 5px; }
+    .cleaner .cleaner-cont .brush {
+      width: 236px;
+      height: 304px;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/brush.jpg);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/brush.jpg);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/brush.jpg);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/brush.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      .cleaner .cleaner-cont .brush h1 {
+        font-size: 60px;
+        color: white;
+        text-decoration: none;
+        font-family: proxima-nova-extra-condensed, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-left: 70px;
+        margin-top: 40px; }
+    .cleaner .cleaner-cont .sole {
+      width: 236px;
+      height: 304px;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/soleBright.jpg);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/soleBright.jpg);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/soleBright.jpg);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/soleBright.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      .cleaner .cleaner-cont .sole h1 {
+        font-size: 50px;
+        color: white;
+        text-decoration: none;
+        font-family: proxima-nova-extra-condensed, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-left: 50px;
+        margin-top: 50px; }
+    .cleaner .cleaner-cont .br-clean {
+      width: 236px;
+      height: 304px;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/Brush-Cleaner_medium.jpg);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/Brush-Cleaner_medium.jpg);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/Brush-Cleaner_medium.jpg);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/Brush-Cleaner_medium.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      .cleaner .cleaner-cont .br-clean h1 {
+        font-size: 50px;
+        color: white;
+        text-decoration: none;
+        font-family: proxima-nova-extra-condensed, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-left: 25px;
+        margin-top: 50px; }
+    .cleaner .cleaner-cont .site-button {
+      padding: 10px 25px;
+      background-color: white;
+      text-decoration: none;
+      color: #630101;
+      margin-left: 45px; }
+
+.tutorials {
+  height: 100%;
+  width: 1280px;
+  margin-left: 80px; }
+  .tutorials .tut-head {
+    width: 1280px;
+    height: 200px;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/ship.jpg);
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/ship.jpg);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/ship.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/ship.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+    .tutorials .tut-head h1 {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      color: white;
+      font-size: 150px;
+      font-family: proxima-nova-extra-condensed, sans-serif;
+      font-weight: 400;
+      font-style: thin;
+      letter-spacing: 7px; }
+  .tutorials .tut-vid {
+    height: 35%;
+    width: 1280px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .tutorials .tut-hld {
+    height: 35%;
+    width: 1280px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+
+footer {
+  background-color: black;
+  height: 100px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0px 10px; }
+  footer span {
+    font-size: 12px;
+    font-weight: 200;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    color: white; }
+  footer .logo {
+    color: whitesmoke; }
+  footer .social {
+    font-size: 22px;
+    width: 140px;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly; }

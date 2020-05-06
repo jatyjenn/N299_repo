@@ -1,0 +1,49 @@
+.tutorials {
+  height: 100%;
+  width: 1280px;
+  margin-left: 80px;
+  //background-color: rgb(11, 46, 46);
+  //margin-top: 40px;
+
+  .tut-head {
+    width: 1280px;
+    height: 200px;
+    background-image: linear-gradient(
+        to right,
+        rgba(black, 0.5),
+        rgba(black, 0.5)
+      ),
+      url(../images/ship.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    h1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 150px;
+      font-family: proxima-nova-extra-condensed, sans-serif;
+      font-weight: 400;
+      font-style: thin;
+      letter-spacing: 7px;
+    }
+  }
+  .tut-vid {
+    height: 35%;
+    width: 1280px;
+    //background-color: cornsilk;
+    //margin-left: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .tut-hld {
+    height: 35%;
+    width: 1280px;
+    //background-color: cornflowerblue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+}
